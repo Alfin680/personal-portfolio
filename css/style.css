@@ -19,6 +19,7 @@ body {
     color: var(--text-primary);
     overflow-x: hidden;
     position: relative;
+    cursor: none;
 }
 
 /* Custom Cursor */
@@ -50,6 +51,11 @@ body {
     .cursor,
     .cursor-follower {
         display: block;
+    }
+
+    a,
+    button {
+        cursor: none;
     }
 }
 
